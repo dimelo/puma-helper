@@ -7,10 +7,8 @@ Goreleaser configuration file is already created and formatted. it can be found 
 ## Prerequisites starter pack
 
 * Clone the project within your `GOPATH` under `src/github.com/dimelo/puma-helper`.
-
 * Follow [the official install guide](https://goreleaser.com/install/) based on the OS you want to build the binary.
 * Get and export a `GITHUB_TOKEN` [just here](https://github.com/settings/tokens), which should contain a valid GitHub token with the repo scope, in your env bash/zsh.
-
 * Install `rpm` package from your package manager.
 * Go get `github.com/goreleaser/nfpm` and install using `go install` command.
 
@@ -28,7 +26,7 @@ $ git push origin v0.1.0
 
 ### Dry release
 
-Your new tag is now push (in the cloud), you can [found it here](https://github.com/dimelo/puma-helper/tags) but without any context or binaries. This is the next step.
+Your new tag is now push on Github, you can [found it here](https://github.com/dimelo/puma-helper/tags) but without any context or binaries. This is the next step.
 
 Just follow the next lines to check if everything works fine, before doing the final release process.
 
