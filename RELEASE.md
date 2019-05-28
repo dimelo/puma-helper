@@ -1,6 +1,8 @@
 # How to release puma-helper
 
-Goreleaser configuration file is already created and formatted, you can found it as `.goreleaser.yml` at the root path of the repository.
+The release process is done using [Goreleaser](https://goreleaser.com/).
+
+Goreleaser configuration file is already created and formatted. it can be found as `.goreleaser.yml` at the root path of the repository.
 
 ## Prerequisites starter pack
 
