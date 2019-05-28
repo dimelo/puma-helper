@@ -1,6 +1,6 @@
 # How to release puma-helper
 
-Goreleaser configuration file is already created and formatted, you can found it as `.goreleaser.yml` at the root path of this repository.
+Goreleaser configuration file is already created and formatted, you can found it as `.goreleaser.yml` at the root path of the repository.
 
 ## Prerequisites starter pack
 
@@ -28,7 +28,7 @@ $ git push origin v0.1.0
 
 Your new tag is now push (in the cloud), you can [found it here](https://github.com/dimelo/puma-helper/tags) but without any context or binaries. This is the next step.
 
-Just follow the next lines to check if everything works fine.
+Just follow the next lines to check if everything works fine, before doing the final release process.
 
 ```bash
 goreleaser release --skip-publish --rm-dist
@@ -38,7 +38,7 @@ goreleaser release --skip-publish --rm-dist
 
 ### Final release
 
-When the build release result is `succeeded`, you just have to follow in the same way the last command without the `--skip-publish` of course.
+When the build release result is `succeeded`, you just have to follow in the same way the last command without the `--skip-publish` option.
 
 ```bash
 goreleaser release --rm-dist
@@ -48,4 +48,4 @@ If succeeded, the new release [will appear here](https://github.com/dimelo/puma-
 
 ### Extra bonus
 
-Feel free to surname your release just [like here](https://github.com/dimelo/puma-helper/releases/tag/v1.0.0) and add a cool pic of it :rocket:
+Feel free to surname your release just [like this](https://github.com/dimelo/puma-helper/releases/tag/v1.0.0) and add a cool pic of it related to the name :rocket:
