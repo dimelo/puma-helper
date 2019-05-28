@@ -13,8 +13,8 @@ changelog:
   sort: asc
   filters:
     exclude:
-    - '^docs:'
-    - '^test:'
+      - '^docs:'
+      - '^test:'
 archive:
   name_template: '{{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}'
   replacements:
@@ -29,9 +29,9 @@ nfpms:
     license: MIT
     vendor: Puma-Helper
     formats:
-    - deb
-    - rpm
+      - deb
+      - rpm
     dependencies:
-    - git
+      - git
     recommends:
-    - rpm
+      - rpm
